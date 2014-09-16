@@ -11,7 +11,7 @@ var prototype = (function() {
 
   return {
     setUp: function() {
-      this.rawHTML = '<td id="' + this.id + '" class="mine"></td>';
+      this.rawHTML = '<td id="' + this.id + '" class="mine"><i class="fa"></i></td>';
     }
   };
 
