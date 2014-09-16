@@ -73,7 +73,7 @@ var prototype = (function() {
   }
 
   function addClassOpen(msObject) {
-    $('#game-container td').eq(msObject.id).addClass('open');
+    $('#game-container td').eq(msObject.id).addClass('open animated flipInX');
   }
 
   function insertMineCountText(msObject) {
