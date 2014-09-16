@@ -98,7 +98,7 @@ var prototype = (function() {
   }
 
   function showMines(mineIndex) {
-    $('table td').eq(mineIndex).append('<i class="fa fa-bomb"></i>');
+    $('table td').eq(mineIndex).append('<i class="fa fa-bomb animated fadeIn"></i>');
   }
 
   return {
