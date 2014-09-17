@@ -1,0 +1,93 @@
+body {
+  background-color: rgba(0, 0, 0, 0.85)
+}
+
+#game-container {
+  width: 48em;
+  margin: 0 auto;
+  background: rgb(135, 125, 125);
+  margin-top: 3em;
+  text-align: center;
+  padding-bottom: 2.5em;
+  padding-top: 0.3em;
+  border: 10px groove rgb(133, 145, 155)
+}
+
+button#reset {
+  font-size: 1.8em;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+  border: 5px outset rgb(255, 255, 4);
+  cursor: pointer
+}
+
+table {
+  margin: 0 auto;
+  font-size: 1.1em;
+  font-weight: bold
+}
+
+td {
+  width: 3em;
+  height: 3em;
+  background-color: rgb(194, 194, 194);
+  border: 3px outset rgb(79, 144, 201)
+}
+
+.open {
+  background-color: #fff
+}
+
+@media screen and (max-width: 800px) {
+
+  #game-container {
+    width: 36em
+  }
+
+  button#reset {
+    margin-top: 0.5em
+  }
+
+  table {
+    margin-top: 1em;
+    font-size: 1em
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    margin: 0
+  }
+
+  #game-container {
+    width: 100%;
+    border: none;
+    background-color: #004F1B
+  }
+
+  i.fa {
+    font-size: 1.6em
+  }
+
+  table {
+    margin-top: 1.5em;
+    font-size: 1em
+  }
+
+  td {
+    width: 2.2em;
+    height: 2.2em
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  table {
+    font-size: 0.8em
+  }
+
+}
