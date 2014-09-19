@@ -37,7 +37,7 @@ td {
 
 .open {
   background-color: #fff;
-  border: 3px inset rgb(190, 218, 241) !important;
+  border: 3px dashed rgb(190, 218, 241) !important;
 }
 
 @media screen and (max-width: 800px) {
