@@ -26,6 +26,8 @@ table {
   margin: 0 auto;
   font-size: 1.1em;
   font-weight: bold;
+  border-radius: 0.5em;
+  border: 5px solid black;
 }
 
 td {
